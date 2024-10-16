@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>9999</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>65001</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DOHMH_New_York_City_Restaurant_Inspection_Results.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CAMIS" size="9999" source="File: H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv" type="V_WString" />
+            <Field name="DBA" size="9999" source="File: H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv" type="V_WString" />
+            <Field name="BORO" size="9999" source="File: H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv" type="V_WString" />
+            <Field name="BUILDING" size="9999" source="File: H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv" type="V_WString" />
+            <Field name="STREET" size="9999" source="File: H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv" type="V_WString" />
+            <Field name="ZIPCODE" size="9999" source="File: H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv" type="V_WString" />
+            <Field name="PHONE" size="9999" source="File: H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv" type="V_WString" />
+            <Field name="CUISINE DESCRIPTION" size="9999" source="File: H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv" type="V_WString" />
+            <Field name="INSPECTION DATE" size="9999" source="File: H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv" type="V_WString" />
+            <Field name="ACTION" size="9999" source="File: H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv" type="V_WString" />
+            <Field name="VIOLATION CODE" size="9999" source="File: H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv" type="V_WString" />
+            <Field name="VIOLATION DESCRIPTION" size="9999" source="File: H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv" type="V_WString" />
+            <Field name="CRITICAL FLAG" size="9999" source="File: H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv" type="V_WString" />
+            <Field name="SCORE" size="9999" source="File: H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv" type="V_WString" />
+            <Field name="GRADE" size="9999" source="File: H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv" type="V_WString" />
+            <Field name="GRADE DATE" size="9999" source="File: H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv" type="V_WString" />
+            <Field name="RECORD DATE" size="9999" source="File: H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv" type="V_WString" />
+            <Field name="INSPECTION TYPE" size="9999" source="File: H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv" type="V_WString" />
+            <Field name="Latitude" size="9999" source="File: H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv" type="V_WString" />
+            <Field name="Longitude" size="9999" source="File: H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv" type="V_WString" />
+            <Field name="Community Board" size="9999" source="File: H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv" type="V_WString" />
+            <Field name="Council District" size="9999" source="File: H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv" type="V_WString" />
+            <Field name="Census Tract" size="9999" source="File: H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv" type="V_WString" />
+            <Field name="BIN" size="9999" source="File: H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv" type="V_WString" />
+            <Field name="BBL" size="9999" source="File: H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv" type="V_WString" />
+            <Field name="NTA" size="9999" source="File: H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv" type="V_WString" />
+            <Field name="Location Point" size="9999" source="File: H:\Northeastern\DAMG 7370\Week 6\New York City (NYC) Food Inspections\DOHMH_New_York_City_Restaurant_Inspection_Results.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings>
+        <Position x="210" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"CAMIS","DBA","BORO","BUILDING","STREET","ZIPCODE","PHONE","CUISINE DESCRIPTION","INSPECTION DATE","ACTION","VIOLATION CODE","VIOLATION DESCRIPTION","CRITICAL FLAG","SCORE","GRADE","GRADE DATE","RECORD DATE","INSPECTION TYPE","Latitude","Longitude","Community Board","Council District","Census Tract","BIN","BBL","NTA","Location Point"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">True</Value>
+          <Value name="Drop Down (81)">title</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="366" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="1073741823" type="V_WString" />
+            <FormulaField expression="FileGetFileName(&quot;C:\Users\shant\Desktop\DAMG 7370\Week 6\New York City (NYC) Food Inspections&quot;)" field="DI_WorkflowFileName" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+DI_WorkflowFileName = FileGetFileName("C:\Users\sh...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="522" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="690" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\shant\AppData\Local\Temp\Engine_29896_6aef4e304497d946b0e8ce3dfd94298e_\Engine_29896_48f99d6d393327408fc0c24a9b337b1b~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="653" y="5" width="157" height="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 7</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="678" y="54" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:SQLServer_NYC_Food_Inspections_Staging|||stg_nyc_food_inpections</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Overwrite</OutputOption>
+                <PostSQL />
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:SQLServer_NYC_Food_Inspections_Staging
+Query=stg_nyc_food_inpections</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="294" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\shant\AppData\Local\Temp\Engine_29896_6aef4e304497d946b0e8ce3dfd94298e_\Engine_29896_33c36cb0d62bac41a458249b65179d0d~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output26" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output26" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>New York City (NYC) Food Inspections Part 1 Staging Table</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="eb94194a-0b16-4f50-8da3-fb9fee8e8feb" />
+      <Telemetry>
+        <PreviousWorkflowId value="c815b146-ba2a-44f8-ab31-fa9aec25df70" />
+        <OriginWorkflowId value="c815b146-ba2a-44f8-ab31-fa9aec25df70" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
