@@ -64,7 +64,7 @@ Load Data into Staging Tables (stg_): Import the raw data into staging tables fo
   - 1. FactNYC_Food_Inspections: Central table recording each inspection event.
   - 2. FactNYC_FoodInspection_Violations: Specific violations noted during the inspections.
 
-![Dimensional Model](https://github.com/shantanup7/NYC-Hospitality-Health-Analytics/blob/main/Part%203%20Dimensional%20Model%20into%20Integratio%20Tables/NYC_Food_inspections_DimensionalModel.jpg)
+![Dimensional Model](https://github.com/shantanup7/NYC-Hospitality-Health-Analytics/blob/main/Part%203%20Dimensional%20Model%20into%20Integration%20Tables/NYC_Food_inspections_DimensionalModel.jpg)
 
 **Data Integration:**
 - **Load Processed Data:** Migrate the cleansed and structured data into the dimensional model hosted on MS SQL Server.
