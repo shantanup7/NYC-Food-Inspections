@@ -1,4 +1,4 @@
-# NYC Hospitality Health Analytics
+# NYC Food Inspections
 
 ### Description
 This project develops a comprehensive data handling and analysis solution for the Department of Health and Mental Hygiene (DOHMH) New York City restaurant inspection results. Utilizing an end-to-end ETL (Extract, Transform, Load) pipeline, this initiative aims to process and analyze data related to the inspections of restaurants and college cafeterias across New York City.
